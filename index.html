@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Faisal</title>
+</head>
+<body>
+ 
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="#">News</a>
+    </div>
+      
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      </div>
+
+      <div id="artikel">
+        <article class="kotak">
+            <h1 class="headjudul">
+                <span>Info Terkini Gadget</span>
+            </h1>
+            <div class="kotakisi">
+                <div class="kotakisiberita">
+                    <div class="gambarberita">
+                        <a class="linkberita" href="iphone14.html">
+                            <div class="tempatgambar" style="background-image: url(https://www.apple.com/v/iphone-14-pro/c/images/overview/hero/hero_endframe__dtzvajyextyu_large.jpg);">
+                            </div>
+                        </a>
+                        <div class="judulberita">
+                            <a class="isijudulberita" href="iphone14.html">
+                                IPhone 14 Resmi Rilis Di Indonesia
+                            </a>
+                            <p>
+                                iPhone 14 segera tersedia di Indonesia pada awal November mendatang. Harga lini baru tersebut juga sudah terpampang di situs iBox.co.id.
+                            </p>
+                        </div>
+                    </div>
+  
+                    <div class="gambarberita">
+                        <a class="linkberita" href="iphone13.html">
+                            <div class="tempatgambar" style="background-image: url(https://asset.kompas.com/crops/Q5pCVhyh17WHTrmh8NBhuPg8UfI=/288x199:3197x2138/750x500/data/photo/2022/09/09/631ae3f75baad.jpg);">
+                            </div>
+                        </a>
+                        <div class="judulberita">
+                            <a class="isijudulberita" href="iphone13.html">
+                                Apakabar IPhone13 dibawah rilisnya IPhone14 ?
+                            </a>
+                            <p>
+                               "Pelanggan akan dapat melakukan pre-order lini iPhone 14 mulai tanggal 28 Oktober 2022 di laman iBox.co.id dan eraspace.com, Official Shop iBox dan Erafone di Shopee, seluruh jaringan outlet iBox, serta gerai Erafone dan Urban Republic tertentu," tutur Erajaya.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </article>
+      </div>
+
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.getElementById("artikel").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.getElementById("artikel").style.marginLeft= "0";
+      }
+      </script>
+
+</body>
+</html>
